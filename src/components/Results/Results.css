@@ -1,0 +1,23 @@
+.result{
+    padding: 5px 0;
+    font-size: 1.2em;
+    text-align: center;
+}
+
+hr{
+    margin: 10px 0;
+}
+
+.consult{
+    margin: 15px !important;
+    font-size: 18px !important;
+}
+
+.desc{
+    margin-top: 15px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
