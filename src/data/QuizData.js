@@ -1,7 +1,7 @@
 export const QuizData = [
     {
-        question: "I used to take birth control pills",
-        options: ["Yes", "No"],
+        question: "My Symptoms started after using hormonal birth control",
+        options: ["Yes - my symptons began when I stopped birth control", "No, I hadd symptons before birth control", "I don't remember", "I've never taken birth control"],
         sympton: 1
     },
     {
@@ -16,7 +16,7 @@ export const QuizData = [
     },
     {
         question: "I am constantly tired and lethargic",
-        options: ["Sometimes", "Often"],
+        options: ["Often", "Sometimes"],
         sympton: 4
     },
     {

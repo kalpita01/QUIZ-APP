@@ -21,10 +21,9 @@ const Results = (props) => {
   
       <p className="desc">You're not alone! 80% of women have PCOS, but don't worry, it's manageable if you take the right steps!</p>
       <br/>
-      <p>I've put together a free webinar to show you how to Find & Treat Your PCOS Type so you can take the next steps in reversing PCOS!</p>
+      <p>If you want to know how to treat your PCOS Type so you can book a free consultation with me</p>
       <br/>
-      <p>*Your results are not a diagnosis.</p>
-      <p>For consultation, please refer to this link</p>
+      <p>Book a suitable time and I will contact you for a free consultation</p>
       <button className="consult"><a href="https://calendly.com/prernagoyal/30min">Find & Treat your PCOS Type</a></button>
 
    </div>

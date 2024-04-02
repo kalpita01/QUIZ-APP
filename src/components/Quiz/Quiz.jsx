@@ -48,6 +48,19 @@ const Quiz = () => {
                     <li onClick={(e) => checkAnswer(e,1)}>
                         {QuizData[index].options[1]}
                     </li>
+                    { QuizData[index].options[2] != null ? 
+                    <>
+                        <li onClick={(e) => checkAnswer(e,2)}>
+                            {QuizData[index].options[2]}
+                        </li>
+                        <li onClick={(e) => checkAnswer(e,3)}>
+                            {QuizData[index].options[3]}
+                        </li>
+                    </>
+                    
+                    
+                    
+                    : <></>}
                 </ul>
                 {/* <button id="submit-btn" className="display-none" onClick={changeQuestion}>Submit</button> */}
                 <div className="index">{index} of {QuizData.length} questions</div>
