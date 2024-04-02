@@ -15,7 +15,7 @@ const Results = (props) => {
 
   return (
     <div className="result">
-      {strArray.length === 0? <b>You don't have any sympton's as of now</b> : <b>You may have: {x}</b>}
+      {strArray.length === 0? <b>You don't have any Sympton as of now</b> : <b>You may have: {x}</b>}
       
 
   
