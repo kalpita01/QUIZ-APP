@@ -1,7 +1,7 @@
 export const QuizData = [
     {
         question: "My Symptoms started after using hormonal birth control",
-        options: ["Yes - my symptons began when I stopped birth control", "No, I hadd symptons before birth control", "I don't remember", "I've never taken birth control"],
+        options: ["Yes - my symptoms began when I stopped birth control", "No, I had symptons before birth control", "I don't remember", "I've never taken birth control"],
         sympton: 1
     },
     {
