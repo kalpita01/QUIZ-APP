@@ -21,7 +21,7 @@ const Results = (props) => {
   
       <p className="desc">You're not alone! 80% of women have PCOS, but don't worry, it's manageable if you take the right steps!</p>
       <br/>
-      <p>If you want to know how to treat your PCOS Type so you can book a free consultation with me</p>
+      <p>If you want to know how to treat your PCOS type so you can book a free consultation with me</p>
       <br/>
       <p>Book a suitable time and I will contact you for a free consultation</p>
       <button className="consult">
