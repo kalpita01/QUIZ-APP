@@ -24,8 +24,9 @@ const Results = (props) => {
       <p>If you want to know how to treat your PCOS Type so you can book a free consultation with me</p>
       <br/>
       <p>Book a suitable time and I will contact you for a free consultation</p>
-      <button className="consult"><a href="https://calendly.com/prernagoyal/30min">Find & Treat your PCOS Type</a></button>
-
+      <button className="consult">
+        <a href="https://calendly.com/prernagoyal/30min">Find & Treat your PCOS type</a>
+      </button>
    </div>
   )
 }

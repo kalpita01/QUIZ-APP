@@ -1,8 +1,10 @@
+
+
 .container{
+    width: 80vw;
     max-width: 600px;
-    min-width: 90vw;
     margin: auto;
-    margin-top: 18vh;
+    margin-top: calc(50vh - 293px);
     background: white;
     color: #262626;
     display: flex;
@@ -56,4 +58,31 @@
 
 .display-none{
     display: none;
+}
+
+@media screen and (max-width:750px) {
+
+    .container{
+        padding: 20px 25px;
+        margin: auto;
+        margin-top: calc(50vh - 243px);
+        gap: 10px;
+    }
+
+    .container ul li{
+        height: 40px;
+    }
+
+    .container ul li, .index{
+        font-size: 16px;
+    }
+    
+    .container h2{
+        font-size: 24px;
+    }
+
+    .container h1{
+        font-size: 30px;
+    }
+
 }
